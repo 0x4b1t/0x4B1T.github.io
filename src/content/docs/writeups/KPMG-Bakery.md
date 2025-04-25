@@ -2,6 +2,7 @@
 title: Bakery
 ---
 
+This was a web-based challenge featured in the KPMG Recruitment CTF 2023.
 
 `Date : 22 Dec 2023 Friday`
 
