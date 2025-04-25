@@ -8,11 +8,8 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: '0x4B1T',
-			logo: {
-        src: './src/assets/Picsart_25-04-25_17-07-15-115.png',
-      },
-			favicon: '/public/apple-touch-icon.png',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/kris3c' }],
+			favicon: '/public/favicon.svg',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/0x4b1t' }],
 			sidebar: [
 				//{
 				//	label: 'Guides',
