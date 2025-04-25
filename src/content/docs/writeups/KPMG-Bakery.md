@@ -1,5 +1,6 @@
 ---
 title: Bakery
+order: 4
 ---
 
 This was a web-based challenge featured in the KPMG Recruitment CTF 2023.
