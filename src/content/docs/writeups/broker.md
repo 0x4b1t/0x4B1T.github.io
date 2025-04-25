@@ -6,6 +6,13 @@ This is a retired Linux box from Hack The Box.
 
 `Date : 21 Dec 2023 Thursday`
 
+### Table of Content 
+
+1. [Recon](#recon)
+2. [Shell as activemq](#shell-as-activemq)
+3. [Privilege escalation](#privilege-escalation)
+
+
 ### Recon
 
 #### Nmap 
