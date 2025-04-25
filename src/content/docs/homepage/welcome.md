@@ -1,6 +1,6 @@
 ---
 title: Welcome
-description: tep inside the 0x4B1T space — your hacker lab powered by Kris3c.
+description: step inside the 0x4B1T space — your hacker lab powered by Kris3c.
 ---
 
 # 💻 Hey, Hacker
