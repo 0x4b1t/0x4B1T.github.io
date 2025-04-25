@@ -1,28 +1,27 @@
 ---
-title: "KPMG 2023 Bakery"
+title: Bakery
 ---
 
-# KPMG Bakery - Web Challenge 2 - KPMG CTF
 
 `Date : 22 Dec 2023 Friday`
 
 Hey Hackers, I forgot to capture screenshots while i was solving the challenge but i will provide as much as possible context to create the whole scenario with words. <<
 
 
-## Table of Content 
+### Table of Content 
 
 1. [Background](#background)
 2. [Recon](#recon)
 3. [Exploitation](#exploitation---preg_replace-bypass)
 4. [Conclusion](#conclusion )
 
-## Background 
+### Background 
 
 KPMG team is expert in giving useless descriptions for the challenges but still according to the description : 
 
 `This is KPMG Backery` 
 
-## Recon
+### Recon
 
 **Nmap**
 
@@ -58,7 +57,7 @@ Let's Try to Enter the Script keyword in the Search box
 
 Yaah Our understanding was accurate script is filtered.
 
-## Exploitation - preg_replace bypass
+### Exploitation - preg_replace bypass
 
 As the application is filtering the "Script" keyword we will try to bypass it and execute the XSS attack.
 
@@ -81,7 +80,7 @@ Payload : <scriptscripscriptt>alert(document.cookie)</scriptscripscriptt>
 
 There is a cookie disclosing the path of a file and upon accessing the file we got the flag.
 
-## Conclusion 
+### Conclusion 
 
 In this writeup we understood how we can bypass the PHP function preg_replace() and execute the XSS attack.   
 
