@@ -15,9 +15,9 @@ This is the Writeups section of the 0x4B1T platform. Explore valuable insights a
 
 ### Table - CTFs
 
-1. [KPMG](#kpmg)
+1. [KPMG 2023](#kpmg)
 
-#### KPMG
+#### KPMG 2023
 
 `KPMG organises CTF Competition every year as a part of thier recruitment process. All the CTF challenges created by the their team is so cool and capable of giving   tears in your eyes. This year one of my friend participated in the challenge and he worked as  a proxy for me :)`
 
