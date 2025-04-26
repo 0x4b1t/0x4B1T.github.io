@@ -73,7 +73,7 @@ link:*.example.com
 ```
 This are some simple but useful example of google dorks to make the concept more clear. You can make your own dorks for gathering more info about target
 
-### Refrence
+### Reference
 
 You can find more useful dorks here : https://www.exploit-db.com/google-hacking-database
 
