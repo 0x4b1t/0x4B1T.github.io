@@ -5,7 +5,7 @@ description: "Exploiting PHP's Imagick library through MSL scripting to achieve 
 
 ![runcloud-install-imagemagick-imagick-single-720x183](https://github.com/kris3c/kris3c.github.io/assets/128035061/9e7d1a0c-38da-461a-b0aa-dd523c149f7b)
 
-`Date : 27-12-2023`
+`Date : 27 Dec 2023 Wednesday`
 
 Hey Hackers, In this article we will understand how we can abuse the imagic fucntion of php to execute our php code and gain RCE on the server.
 
