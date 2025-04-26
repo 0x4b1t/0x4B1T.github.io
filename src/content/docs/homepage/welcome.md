@@ -13,13 +13,13 @@ description: step inside the 0x4B1T space — your hacker lab powered by Kris3c.
 - [**Hackries**](/hackries/find-your-way):  
   A series of in-depth tutorials designed to teach specific topics, like a course. Master each subject step by step.
 
-- **Articles**:  
+- [**Articles**](/articles/find-your-way):  
   Single, focused reads that dive into specific attacks, techniques, or concepts. Think of these as quick but powerful lessons.
 
-- **Writeups**:  
+- [**Writeups**](/writeups/find-your-way):  
   Solutions, walkthroughs, and lessons from real-world challenges.
 
-- **Projects**:  
+- [**Projects**](/projects/find-your-way):  
   Tools, experiments, and creations built during the journey.
 
 ---
