@@ -13,7 +13,7 @@ export default defineConfig({
 			favicon: 'android-chrome-512x512.png',
 			logo: {src:'./src/assets/favicon-1.png'},
 			social: [ {
-      icon: 'coffee', // You can use an appropriate icon for Buy Me a Coffee, e.g., 'coffee'
+      icon: 'heart', // You can use an appropriate icon for Buy Me a Coffee, e.g., 'coffee'
       label: 'Buy Me a Coffee',
       href: 'https://www.buymeacoffee.com/kris3c',
     },{ icon: 'github', label: 'GitHub', href: 'https://github.com/0x4b1t' }],
