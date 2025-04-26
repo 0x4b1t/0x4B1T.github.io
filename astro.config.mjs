@@ -10,7 +10,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: '0x4B1T',
-			favicon: 'favicon.svg',
+			favicon: 'apple-touch-icon.png',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/0x4b1t' }],
 			sidebar: [
 				//{
