@@ -59,6 +59,11 @@ export default defineConfig({
                                         autogenerate: { directory: "about" }
 
                                 },
+				{
+                                        label: 'Support',
+                                        autogenerate: { directory: "support" }
+
+                                },
 
 			],
 			head: [
