@@ -2,6 +2,8 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+const GA_ID = 'G-V06K96LQTK';
+
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://0x4b1t.github.io',
@@ -53,6 +55,24 @@ export default defineConfig({
 
                                 },
 
+			],
+			head: [
+				{
+					tag: 'script',
+					attrs: {
+						async: true,
+						src: `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`,
+					},
+				},
+				{
+					tag: 'script',
+					children: `
+					  window.dataLayer = window.dataLayer || [];
+					  function gtag(){dataLayer.push(arguments);}
+					  gtag('js', new Date());
+					  gtag('config', '${GA_ID}');
+					`,
+				},
 			],
 		}),
 	],
