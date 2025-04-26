@@ -10,7 +10,7 @@ description: step inside the 0x4B1T space — your hacker lab powered by Kris3c.
 
 0x4B1T is divided into four main sections — each crafted to guide you through a different journey:
 
-- **Hackries**:  
+- [**Hackries**](/hackries/find-your-way):  
   A series of in-depth tutorials designed to teach specific topics, like a course. Master each subject step by step.
 
 - **Articles**:  
