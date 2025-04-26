@@ -12,7 +12,11 @@ export default defineConfig({
 			title: '0x4B1T',
 			favicon: 'android-chrome-512x512.png',
 			logo: {src:'./src/assets/favicon-1.png'},
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/0x4b1t' }],
+			social: [ {
+      icon: 'coffee', // You can use an appropriate icon for Buy Me a Coffee, e.g., 'coffee'
+      label: 'Buy Me a Coffee',
+      href: 'https://www.buymeacoffee.com/kris3c',
+    },{ icon: 'github', label: 'GitHub', href: 'https://github.com/0x4b1t' }],
 			sidebar: [
 				//{
 				//	label: 'Guides',
