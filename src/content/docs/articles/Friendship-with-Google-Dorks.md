@@ -7,10 +7,8 @@ description: "Discover how to turn Google into a powerful ally for hacking recon
 
 `Date : 21 Jun 2024 Friday`
 
-Taking help from our friend Google for recon or information gathering.
-
-Hello amazing hacker, How you are doing i hope you are doing well.
-In this article we will see why proffesional hackers always say google is your best friend.
+Hello amazing hacker! How are you doing? I hope you're doing well.  
+In this article, we will explore why professional hackers always say, "**Google is your best friend.**"
 
 ### Table of Content 
 
@@ -23,15 +21,19 @@ In this article we will see why proffesional hackers always say google is your b
 
 ### Introduction
 
-As we all know information gathering or recon is very important before actual attacking because during recon you may find many usefull information that are important pieces of puzzle that you need later to find a P1 vulnerability on the target.
+As we all know, information gathering (reconnaissance) is crucial before launching any attack.  
+During recon, you may discover valuable pieces of information — critical parts of the puzzle that help you find high-severity vulnerabilities on your target.
 
 ### Why Google?
 
-Google is a very powerfull and famous search engine that is used by nearly every person in this world who is holding a digital device. Google supports many filters or Operators that you can use to search about anything very effectively and retrive information that is not easily acessable.
+Google is a powerful and widely-used search engine, used by almost everyone who owns a digital device.  
+It supports various **filters** and **operators** that help you search more effectively and retrieve information that is not easily accessible.
 
 ### Google Dorking
 
-Google dorking is also called "Google Hacking". It is a way of doing advance search using custom query that include diffrent search filter or operators called 'dork'.
+Google dorking (also called **Google hacking**) is an advanced search technique using custom queries that include different search filters and operators, known as **dorks**.
+
+By using dorks smartly, you can extract sensitive information, discover misconfigurations, and find potential vulnerabilities in a target system.
 
 ### Usefull Dorks you should know about
 
@@ -73,10 +75,11 @@ This are some simple but useful example of google dorks to make the concept more
 
 ### Refrence
 
-You can find more useful dorks on : https://www.exploit-db.com/google-hacking-database
+You can find more useful dorks here : https://www.exploit-db.com/google-hacking-database
 
 ### Closing words
 
-Don't forget to share this articles with your friends to spread knowledge in infosec community.
+Don't forget to share this blog with your friends to spread knowledge in the InfoSec community.
+Follow to stay connected for more informative articles.
 
 Thankyou, Happy Hunting :)
