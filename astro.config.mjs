@@ -11,7 +11,7 @@ export default defineConfig({
 		starlight({
 			title: '0x4B1T',
 			favicon: 'android-chrome-512x512.png',
-			logo: {src:'/favicon-1.png'},
+			logo: {src:'./src/assets/favicon-1.png'},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/0x4b1t' }],
 			sidebar: [
 				//{
