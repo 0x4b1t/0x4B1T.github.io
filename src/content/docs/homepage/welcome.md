@@ -3,59 +3,33 @@ title: Welcome
 description: step inside the 0x4B1T space — your hacker lab powered by Kris3c.
 ---
 
-# 💻 Hey, Hacker
 
-> “Let's embbed the knowledge into your sou(l)rce”  
-> — _Kris3c Manifesto_
-
-You're now inside the **0x4B1T hacker space**, a fusion of guides, write-ups, experiments, and wild ideas. This isn’t just another doc site — it’s a tactical grid for the curious minds.
-
-We operate across **four core modules**. Let’s plug you in:
+> A hacker's space to learn, explore, and build.
 
 ---
 
-### 1. [Hackries](/hackries/find-your-way)
+0x4B1T is divided into four main sections — each crafted to guide you through a different journey:
 
-Think of this as your structured hacker's guidebook.  
-Whether you're diving into binary exploitation or exploring web internals — this is where we break things down, frame-by-frame.
+- **Hackries**:  
+  A series of in-depth tutorials designed to teach specific topics, like a course. Master each subject step by step.
 
-> _Exploit. Learn. Repeat._
+- **Articles**:  
+  Single, focused reads that dive into specific attacks, techniques, or concepts. Think of these as quick but powerful lessons.
 
----
+- **Writeups**:  
+  Solutions, walkthroughs, and lessons from real-world challenges.
 
-### 2. [Articles](/articles/find-your-way)
-
-When we’re not breaking stuff, we’re thinking.  
-Deep dives into vulnerabilities, tech culture, threat models, philosophy of open source, or rants about broken APIs.
-
-> _Long-form curiosity._
+- **Projects**:  
+  Tools, experiments, and creations built during the journey.
 
 ---
 
-### 3. [Writeups](/writeups/find-your-way)
+There is also an **About** section, where you can learn more about the creator behind 0x4B1T, and find contact information for any inquiries.
 
-Real-world CTFs. Red team labs.  
-Sometimes just an itch to pop a shell and document it for the culture.  
-Expect payloads, shellcode, recon notes, and battle scars.
+Each section starts with a **Find Your Way** page.  
+Think of it as your personal map — helping you explore the content inside smoothly.
 
-> _Proof of knowledge._
-
----
-
-### 4. [Projects](/projects/find-your-way)
-
-Scripts, tools, honeypots, experiments.  
-These aren’t portfolios. They’re living ideas — raw, practical, often weird.  
-Clone ‘em. Use ‘em. Break ‘em.
-
-> _Open source chaos._
+Start anywhere.  
+Learn everything.
 
 ---
-
-### 🛸 Get Lost, Get Inspired
-
-Explore freely. This space is for learners, tinkerers, misfits — and the quietly obsessed.  
-Welcome to the other side of the terminal. 🖤
-
----
-
