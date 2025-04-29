@@ -11,7 +11,7 @@ export default defineConfig({
 		starlight({
 			title: '0x4B1T',
 			favicon: 'faviconn.ico',
-			logo: {src:'./src/assets/favicon-1.png'},
+			logo: {src:'./src/assets/logo-new.png'},
 			social: [ {
       icon: 'heart', // You can use an appropriate icon for Buy Me a Coffee, e.g., 'coffee'
       label: 'Buy Me a Coffee',
