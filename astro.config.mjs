@@ -10,7 +10,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: '0x4B1T',
-			favicon: 'favicon.svg',
+			favicon: 'faviconn.svg',
 			logo: {src:'./src/assets/logo-new.png'},
 			social: [ {
       icon: 'heart', // You can use an appropriate icon for Buy Me a Coffee, e.g., 'coffee'
