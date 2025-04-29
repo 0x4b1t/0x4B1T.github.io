@@ -11,7 +11,7 @@ export default defineConfig({
 		starlight({
 			title: '0x4B1T',
 			favicon: 'android-chrome-512x512.png',
-			logo: {src:'./public/faviconn.ico'},
+			logo: {src:'./src/assets/faviconn.ico'},
 			social: [ {
       icon: 'heart', // You can use an appropriate icon for Buy Me a Coffee, e.g., 'coffee'
       label: 'Buy Me a Coffee',
