@@ -13,6 +13,7 @@ export default defineConfig({
 			favicon: 'faviconn.ico',
 			logo: {src:'./src/assets/favicon-1.png'},
 			social: [ {
+				og:{image:'./src/assets/favicon-1.png'},
       icon: 'heart', // You can use an appropriate icon for Buy Me a Coffee, e.g., 'coffee'
       label: 'Buy Me a Coffee',
       href: 'https://www.buymeacoffee.com/kris3c',
