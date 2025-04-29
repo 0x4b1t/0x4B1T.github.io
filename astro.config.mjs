@@ -10,8 +10,8 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: '0x4B1T',
-			favicon: 'android-chrome-512x512.png',
-			logo: {src:'./src/assets/faviconn.ico'},
+			favicon: 'faviconn.ico',
+			logo: {src:'./src/assets/favicon-1.png'},
 			social: [ {
       icon: 'heart', // You can use an appropriate icon for Buy Me a Coffee, e.g., 'coffee'
       label: 'Buy Me a Coffee',
