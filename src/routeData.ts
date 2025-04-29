@@ -2,7 +2,11 @@ import { defineRouteMiddleware } from '@astrojs/starlight/route-data'
 
 export const onRequest = defineRouteMiddleware((context) => {
   const id = context.locals.starlightRoute.id || 'index'
-  const ogImageUrl = new URL(`/og-images/${id}.png`, context.site)
+  const data = context.locals.starlightRoute.entry?.data
+
+  const ogImagePath = data?.ogImage || '/og-images/default.png'
+
+  const ogImageUrl = new URL(ogImagePath, context.site)
 
   context.locals.starlightRoute.head.push({
     tag: 'meta',
