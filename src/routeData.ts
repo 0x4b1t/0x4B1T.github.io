@@ -8,6 +8,8 @@ export const onRequest = defineRouteMiddleware((context) => {
 
   const ogImageUrl = new URL(ogImagePath, context.site)
 
+  console.log('[Middleware] OG image set:', ogImageUrl.href)
+
   context.locals.starlightRoute.head.push({
     tag: 'meta',
     attrs: { property: 'og:image', content: ogImageUrl.href },
