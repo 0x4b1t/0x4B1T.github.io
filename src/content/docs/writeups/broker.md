@@ -1,6 +1,7 @@
 ---
 title : Broker
 order : 3
+ogImage: /og-images/android-chrome-512x512.png
 ---
 
 This is a retired Linux box from Hack The Box.
