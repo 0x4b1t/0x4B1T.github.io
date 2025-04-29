@@ -12,7 +12,6 @@ export default defineConfig({
 			title: '0x4B1T',
 			favicon: 'faviconn.ico',
 			logo: {src:'./src/assets/favicon-1.png'},
-			routeMiddleware: './src/routeData.ts',
 			social: [ {
       icon: 'heart', // You can use an appropriate icon for Buy Me a Coffee, e.g., 'coffee'
       label: 'Buy Me a Coffee',
