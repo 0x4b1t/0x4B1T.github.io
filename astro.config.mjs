@@ -58,12 +58,8 @@ export default defineConfig({
                                         label: 'About',
                                         autogenerate: { directory: "about" }
 
-                                },
-				{
-                                        label: 'Support',
-                                        autogenerate: { directory: "support" }
-
-                                },
+                                }
+				
 
 			],
 			head: [
