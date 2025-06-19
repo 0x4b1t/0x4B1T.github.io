@@ -1,3 +1,7 @@
+---
+title: "Beleaf CSAW19"
+description: "Discover how to turn Google into a powerful ally for hacking reconnaissance using smart dorks and search tricks."
+---
 
 ![Screenshot from 2025-06-19 15-47-04](https://github.com/user-attachments/assets/d8d3ff6c-51c9-455a-b00d-9c4baf974716)
 
