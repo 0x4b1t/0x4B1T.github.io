@@ -15,6 +15,7 @@ In this writeup we are going to solve the Opacity room of Tryhackme. It is a fun
 2. [Shell as www-data - RCE](#shell-as-www-data---rce)
 3. [Shell as sysadmin](#shell-as-sysadmin)
 4. [Privilege escalation to root](#privilege-escalation-to-root)
+5. [Closing Words](#closing-words)
    
 ### Reconnaissance
 
