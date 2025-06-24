@@ -9,7 +9,7 @@ In this writeup we are going to solve the Opacity room of Tryhackme. It is a fun
 
 `Date: 24 June 2025`
 
-# Table of Content
+## Table of Content
 
 1. [Reconnaissance](#reconnaissance)
 	1. [Nmap](#nmap)
