@@ -9,21 +9,18 @@ In this writeup we are going to solve the Opacity room of Tryhackme. It is a fun
 
 `Date: 24 June 2025`
 
-## Table of Content
+### Table of Content
 
 1. [Reconnaissance](#reconnaissance)
-	1. [Nmap](#nmap)
-	2. [Port 80 - Apache httpd 2441](#port-80---apache-httpd-2441)
-	3. [Directory Bruteforcing](#directory-bruteforcing)
 2. [Shell as www-data - RCE](#shell-as-www-data---rce)
 3. [Shell as sysadmin](#shell-as-sysadmin)
 4. [Privilege escalation to root](#privilege-escalation-to-root)
    
-## Reconnaissance
+### Reconnaissance
 
 In this phase we will gather the information about the target both passively and actively.
 
-### Nmap
+**Nmap**
 
 First we should scan for the open ports on the servers using nmap :
 
@@ -43,7 +40,7 @@ nmap -Pn 10.10.94.39  -p 22,80,139,445 --min-rate 5000 -sC -sV -oN nmap-service-
 ![Screenshot from 2025-06-23 11-28-09](https://github.com/user-attachments/assets/3b4413e4-7468-4dfb-9390-82d7a4db8cfd)
 
 
-##### Port 80 - Apache httpd 2.4.41 
+**Port 80 - Apache httpd 2.4.41**
 
 When accessing the url `http://10.10.94.39` it is redirecting us to `/login.php` endpoint :
 
@@ -64,7 +61,7 @@ Things can be done
 
 But before trying anything on the login page we will move forward to gather more information and increase our attack surface
 
-### Directory Bruteforcing 
+**Directory Bruteforcing** 
 
 Checking for the directories present on the server and can be accessed by us.
 
@@ -81,7 +78,7 @@ gobuster dir -u http://10.10.94.39/ -w /snap/seclists/current/Discovery/Web-Cont
 ```
 
 
-## Shell as www-data - RCE
+### Shell as www-data - RCE
 
 From the discovered the encdpoints `/cloud` looks interesting so we can continue with it.
 
@@ -177,7 +174,7 @@ www-data
 
 now we have the `shell` as user `www-data`
 
-## Shell as sysadmin
+### Shell as sysadmin
 
 First we will perform basic enumeration to find some interesting files or binaries.
 
@@ -298,7 +295,7 @@ ssh sysadmin@10.10.114.29
 ![userflag](https://github.com/user-attachments/assets/097be906-2bd0-479b-9bd1-51759d5aacdb)
 
 
-## Privilege escalation to root
+### Privilege escalation to root
 
 In the `scripts` directory we have file `script.php` having content :
 
@@ -377,6 +374,6 @@ Boommmm... we are root and can read `proof.txt`
 Thanks for going through this Opacity writeup!
 This challenge was a great exercise in exploiting insecure file uploads, bypassing filters, and gaining initial access to a system. It also provided a hands-on look at privilege escalation in a real-world-like scenario.
 
-## Closing Words
+### Closing Words
 
 I hope this walkthrough helped you understand the techniques and thought process behind solving such challenges. Keep hacking, stay sharp, and don’t forget to share this with others in the community — let’s learn and grow together!
