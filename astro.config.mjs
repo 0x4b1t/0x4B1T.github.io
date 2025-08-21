@@ -37,11 +37,11 @@ export default defineConfig({
 					label: 'Hackries',
 					autogenerate: { directory: "hackries" },
 					 items: [
-    {
-      label: 'ELF Internals Deep Dive',   // 👈 Friendly name
-      autogenerate: { directory: "elf-internals-deep-dive" }
-    }
-  ]
+      {
+        label: 'ELF Internals Deep Dive',
+        items: [{ dir: 'hackries/elf-internals-deep-dive' }]
+      }
+    ]
 					
 
 				},
