@@ -11,7 +11,7 @@ This is the Hackries section of the 0x4B1T platform. Explore valuable insights a
 
 A practical series that explains the structure and internals of ELF binaries. From the executable header to sections and tables, it provides a clear foundation for understanding Linux executables
 
-- 0x01 [Executable Header](https://kris3c.github.io/hackries/mastering-x86-64-assembly/0x01) , August 21, 2025
-- 0x02 [Section Header](https://kris3c.github.io/hackries/mastering-x86-64-assembly/0x02) , August 23, 2025
-- 0x03 [Program Header](https://kris3c.github.io/hackries/mastering-x86-64-assembly/0x03) , August 23, 2025
+- 0x01 [Executable Header](https://0x4b1t.github.io/hackries/elf-internals-deep-dive/0x01/) , August 21, 2025
+- 0x02 [Section Header](https://0x4b1t.github.io/hackries/elf-internals-deep-dive/0x02/) , August 23, 2025
+- 0x03 [Program Header](https://0x4b1t.github.io/hackries/elf-internals-deep-dive/0x03/) , August 23, 2025
 
