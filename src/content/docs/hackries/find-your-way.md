@@ -5,11 +5,13 @@ title: "Find your way : H"
 This is the Hackries section of the 0x4B1T platform. Explore valuable insights and in-depth content designed to enhance your knowledge and skills. We hope you find this material useful and inspiring as you advance your expertise in the field.
 
 ### Table of Series
-1. [ELF Internals : Deep Dive](#), August 21, 2025
+1. [ELF Internals : Deep Dive](#), August 23, 2025
 
 #### 1. ELF Internals: Deep Dive
 
 A practical series that explains the structure and internals of ELF binaries. From the executable header to sections and tables, it provides a clear foundation for understanding Linux executables
 
 - 0x01 [Executable Header](https://kris3c.github.io/hackries/mastering-x86-64-assembly/0x01) , August 21, 2025
+- 0x02 [Section Header](https://kris3c.github.io/hackries/mastering-x86-64-assembly/0x02) , August 23, 2025
+- 0x03 [Program Header](https://kris3c.github.io/hackries/mastering-x86-64-assembly/0x03) , August 23, 2025
 
