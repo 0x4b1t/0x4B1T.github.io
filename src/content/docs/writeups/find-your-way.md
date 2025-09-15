@@ -12,7 +12,8 @@ This is the Writeups section of the 0x4B1T platform. Explore valuable insights a
 1. [CTF](#ctf)
 2. [Try Hack Me](#try-hack-me)
 3. [Hack The Box](#hack-the-box)
-4. [Out of Order](#out-of-order)
+4. [PicoCTF](#picoctf)
+5. [Out of Order](#out-of-order)
 
 ### Table - CTFs
 
@@ -36,6 +37,10 @@ This is the Writeups section of the 0x4B1T platform. Explore valuable insights a
 
 1. [Broker](https://0x4b1t.github.io/writeups/broker/)
 
+### PicoCTF
+
+1. [Flag Hunters](https://0x4b1t.github.io/writeups/flag-hunters/)
+   
 ### Out of Order
 
 `This section includes writeups for challenges I solved out of sequence — sometimes even years after their release — while learning a related topic.`
