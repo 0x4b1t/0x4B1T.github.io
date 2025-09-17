@@ -8,8 +8,7 @@ description: "A hard-level TryHackMe room featuring SMB enumeration, command inj
 
 `Date : Sep 15 2025`
 
-[Year of the Fox](https://tryhackme.com/room/yotf) is a Hard Level TryHackMe room focusing on SMB Enumeration, Coomand Injection, Privilege escalation and more.https://tryhackme.com/room/yotf 
-
+[Year of the Fox](https://tryhackme.com/room/yotf) is a Hard Level TryHackMe room focusing on SMB Enumeration, Coomand Injection, Privilege escalation and more.
 ### Table of content
 
 1. [Recon](#recon)
