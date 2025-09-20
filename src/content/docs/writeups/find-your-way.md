@@ -45,10 +45,10 @@ This is the Writeups section of the 0x4B1T platform. Explore valuable insights a
 
 `This section includes writeups for challenges I solved out of sequence — sometimes even years after their release — while learning a related topic.`
 
-1. [Reverse Engeeering](#reverse-engineering)
+1. [Pwn & Reverse Engeeering](#pwn-and-reverse-engineering)
 
 
-#### Reverse Engineering
+#### Pwn and Reverse Engineering
 
 1. [Beleaf](https://0x4b1t.github.io/writeups/beleaf-csaw19/)
 2. [Boi](https://0x4b1t.github.io/writeups/boi-csaw18)
