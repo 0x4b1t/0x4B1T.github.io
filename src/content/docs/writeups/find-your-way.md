@@ -32,7 +32,8 @@ This is the Writeups section of the 0x4B1T platform. Explore valuable insights a
 1. [Surfer](https://0x4b1t.github.io/writeups/surfer/)
 2. [Opacity](https://0x4b1t.github.io/writeups/opacity-thm)
 3. [Bugged](https://0x4b1t.github.io/writeups/bugged/)
-
+4. [Year of the Fox](https://0x4b1t.github.io/writeups/year-of-the-fox/)
+   
 ### Hack The Box
 
 1. [Broker](https://0x4b1t.github.io/writeups/broker/)
