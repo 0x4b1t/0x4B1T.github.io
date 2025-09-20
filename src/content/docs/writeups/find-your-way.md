@@ -52,6 +52,7 @@ This is the Writeups section of the 0x4B1T platform. Explore valuable insights a
 
 1. [Beleaf](https://0x4b1t.github.io/writeups/beleaf-csaw19/)
 2. [Boi](https://0x4b1t.github.io/writeups/boi-csaw18)
+3. [Tamu'19 pwn1](https://0x4b1t.github.io/writeups/tamu19-pwn1/)
 
 
 
