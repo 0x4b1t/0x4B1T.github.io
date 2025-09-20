@@ -3,9 +3,11 @@ title: Tamu19 pwn1
 description: Beginner-level 32-bit buffer overflow challenge from Tamu CTF 2019.
 ---
 
+![1_HmcCGfu1d5uyg3Ry1Vz3iA](https://github.com/user-attachments/assets/428db926-4396-42df-836d-23cead2bbe92)
+
 `Date: 20 September 2025 `
 
-This is pwn challenge from Tamu CTF 2019.
+This is Beginner-level 32-bit buffer overflow challenge from Tamu CTF 2019.
 
 ### Table of content
 
