@@ -1,5 +1,5 @@
 ---
-title: "Buffer Overflow to control hijacking in ASLR enabled binary"
+title: "Buffer Overflow to Control Hijacking in ASLR enabled Binary"
 description: "This article demonstrates how to exploit buffer overflows in ASLR-enabled binaries by understanding memory pages and offsets, enabling control hijacking even with modern defenses."
 ---
 <img width="3464" height="1949" alt="Picsart_25-10-24_15-33-13-893" src="https://github.com/user-attachments/assets/77b7c3f3-3294-4b06-ab44-423ee93618b4" />
