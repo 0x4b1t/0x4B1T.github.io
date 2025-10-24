@@ -332,7 +332,7 @@ print(p.recvall())
 
 One important thing to note there - In python we can't write nibble we can write bytes only which means we can't write `189` we can write something like `0189` or `3189` so you need to choose a random value for the 4th hexdigit and run the binary multiple times until it matches the actual value.
 
-![7874bcb494061b68ae1e30be068ec0d0.png](:/2b288e7f7b35451791e6a4f0401b7571)
+<img width="1898" height="203" alt="7874bcb494061b68ae1e30be068ec0d0" src="https://github.com/user-attachments/assets/2edac304-084d-4d1d-956d-771343f088ae" />
 Figure 1.8 : Flag
 
 We got the flag!!
