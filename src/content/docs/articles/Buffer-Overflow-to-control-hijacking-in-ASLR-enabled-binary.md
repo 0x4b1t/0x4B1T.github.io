@@ -207,7 +207,7 @@ Output :
 
 ```
 RELRO           STACK CANARY      NX            PIE             RPATH      RUNPATH      Symbols         FORTIFY Fortified       Fortifiable     FILE
-Partial RELRO   Canary found      NX enabled    PIE enabled     No RPATH   No RUNPATH   44 Symbols        No    0               3               ./chall
+Partial RELRO   No canary found     NX enabled    PIE enabled     No RPATH   No RUNPATH   44 Symbols        No    0               3               ./chall
 ```
 
 We can see it says `PIE` is `enabled`  which means it is `Position Independent Exectable` simply saying it does not depends on fixed address and can be run on ant address making it a ASLR enabled binary.
