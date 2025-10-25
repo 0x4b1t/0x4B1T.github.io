@@ -2,7 +2,7 @@
 title: "Buffer Overflow to Control Hijacking in ASLR enabled Binary"
 description: "This article demonstrates how to exploit buffer overflows in ASLR-enabled binaries by understanding memory pages and offsets, enabling control hijacking even with modern defenses."
 ---
-<img width="3464" height="1949" alt="Picsart_25-10-24_15-33-13-893" src="https://github.com/user-attachments/assets/77b7c3f3-3294-4b06-ab44-423ee93618b4" />
+<img width="3464" height="1949" alt="Article Thumbnail" src="https://github.com/user-attachments/assets/77b7c3f3-3294-4b06-ab44-423ee93618b4" />
 
 
 Buffer overflow - A vulnerability which does not scares the programmers anymore because for them ASLR is thier saviour but is it really a saviour or it just pretend to be? 
@@ -69,7 +69,7 @@ When the machine is `64 bit` the address look like this `0x0000000000000000` (th
 
 Visual Representation of this Example - 
 
-<img width="770" height="580" alt="791a1c3b02b8abcc86bb31a5082f9953" src="https://github.com/user-attachments/assets/a08629d0-ce9a-4c77-823a-e879a53c2144" />
+<img width="770" height="580" alt="Visual Representation of stack" src="https://github.com/user-attachments/assets/a08629d0-ce9a-4c77-823a-e879a53c2144" />
 
 Figure 1.1 Visual Representation of stack.
 
@@ -94,10 +94,10 @@ int main(){
 
 How this variables look on the stack :
 
-<img width="327" height="508" alt="Untitled Diagram drawio(1)" src="https://github.com/user-attachments/assets/a8d0aee6-2270-4f1b-9630-dce5b0636940" />
+<img width="327" height="508" alt="Stack View of a program" src="https://github.com/user-attachments/assets/a8d0aee6-2270-4f1b-9630-dce5b0636940" />
 
 
-Figure 1.2 : Stack View
+Figure 1.2 : Stack View of a program
 
 When we define the variable we mention its type with it like `int`,`char`,`float` etc which has fixed  sizes according to the architecture of the computer and this is not the problem the real problem is with the inputs that a program ask for from a user. 
 
@@ -137,7 +137,7 @@ gcc chall.c -o chall -fno-stack-protector -fno-pie -no-pi
 
 Running the program :
 
-<img width="889" height="178" alt="c7dd76167c2d17135ce3771aa2d93838" src="https://github.com/user-attachments/assets/07fcb34a-a09c-40e7-a6cf-45e4a94e2e78" />
+<img width="889" height="178" alt="Program Screenshot" src="https://github.com/user-attachments/assets/07fcb34a-a09c-40e7-a6cf-45e4a94e2e78" />
 
 Figure 1.3 : Program Screenshot
 
@@ -145,7 +145,7 @@ So the program is very simple it just print the address of a function named `do_
 
 View of the stack when the read function is getting executed : 
 
-<img width="634" height="509" alt="Untitled Diagram drawio(5)" src="https://github.com/user-attachments/assets/96cb7311-d567-48f1-9da6-7b105ee4724c" />
+<img width="634" height="509" alt="Stack View during a function execution" src="https://github.com/user-attachments/assets/96cb7311-d567-48f1-9da6-7b105ee4724c" />
 
 Figure 1.4 : Stack View during a function execution.
 
@@ -214,7 +214,7 @@ We can see it says `PIE` is `enabled`  which means it is `Position Independent E
 
 We can verify this by running the binary - 
 
-<img width="924" height="832" alt="4bcdde3cf27edd54d564929ed4e0b0ae" src="https://github.com/user-attachments/assets/0fe9dd81-d291-460d-8abf-a051170ab9e3" />
+<img width="924" height="832" alt="Challenge binary Screenshot " src="https://github.com/user-attachments/assets/0fe9dd81-d291-460d-8abf-a051170ab9e3" />
 
 Figure 1.5 : Challenge binary Screenshot 
 
@@ -232,13 +232,13 @@ This will run the process in background and will give a `Process Identifier` or 
 cat /proc/<PID>/maps
 ```
 
-<img width="1741" height="651" alt="2f4d51a0a1bf5ac37d0e14581bf1dffd" src="https://github.com/user-attachments/assets/350eb235-3cc4-41b1-918d-806ba6ec1218" />
+<img width="1741" height="651" alt="Memory map" src="https://github.com/user-attachments/assets/350eb235-3cc4-41b1-918d-806ba6ec1218" />
 
 Figure 1.6 : Memory map
 
 Running both the commands again :
 
-<img width="1697" height="649" alt="84ce60fed6056e95d54e221e5d5cb719" src="https://github.com/user-attachments/assets/b16dbc50-e97a-4516-a9fd-e7f63c1a08c2" />
+<img width="1697" height="649" alt="Memory map 2" src="https://github.com/user-attachments/assets/b16dbc50-e97a-4516-a9fd-e7f63c1a08c2" />
 
 Figure 1.7 : Memory map 2
 
@@ -281,7 +281,7 @@ Breakpoint 1 at 0x124a
 pwndbg> run
 ```
 
-<img width="1919" height="642" alt="Screenshot_2025-10-24_13-20-42" src="https://github.com/user-attachments/assets/18399960-b24d-462f-abff-a6bd2c4f1ad6" />
+<img width="1919" height="642" alt="Address where input will be stiored " src="https://github.com/user-attachments/assets/18399960-b24d-462f-abff-a6bd2c4f1ad6" />
 
 
 Figure 1.8 : Address where input will be stiored 
@@ -332,7 +332,7 @@ print(p.recvall())
 
 One important thing to note there - In python we can't write nibble we can write bytes only which means we can't write `189` we can write something like `0189` or `3189` so you need to choose a random value for the 4th hexdigit and run the binary multiple times until it matches the actual value.
 
-<img width="1898" height="203" alt="7874bcb494061b68ae1e30be068ec0d0" src="https://github.com/user-attachments/assets/2edac304-084d-4d1d-956d-771343f088ae" />
+<img width="1898" height="203" alt="Flag" src="https://github.com/user-attachments/assets/2edac304-084d-4d1d-956d-771343f088ae" />
 Figure 1.8 : Flag
 
 We got the flag!!
