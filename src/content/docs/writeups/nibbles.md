@@ -16,7 +16,7 @@ Performing Intial Recon -> Nibbleblog instance -> file upload vulnerability to R
 1. [Recon](#recon)
 2. [Port 80 Enumeration](#port-80-enumeration)
 3. [Shell as Nibbler](#shell-as-nibbler)
-4. [Privilege Escalation to Root](#Privilege-escalation-to-root)
+4. [Privilege Escalation to Root](#privilege-escalation-to-root)
 5. [Conclusion](#conclusion)
 
 ### Recon
