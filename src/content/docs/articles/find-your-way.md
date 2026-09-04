@@ -16,3 +16,5 @@ Tags: Imagick,RCE
 
 ### [Race Conditions](/articles/race-conditions)
 > Discover and Exploit the Race Condition Vulnerability
+
+Tags: Portswigger,Race Conditions
