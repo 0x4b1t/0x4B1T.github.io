@@ -4,6 +4,8 @@ title: "Lab 3 - Multi-endpoint race conditions"
 
 In this challenge we are tasked with purchasing an item `Lightweight L33t Leather Jacket`  at an unintended price by exploiting the race condition but what type of race condiiton we look at that.
 
+`Date: 4 September 2026`
+
 ## Table of Content 
 
 1. [Initial Recon](#initial-recon)
