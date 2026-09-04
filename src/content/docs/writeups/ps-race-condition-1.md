@@ -1,5 +1,5 @@
 ---
-title : Lab 1 - Limit overrun race conditions
+title : "Lab 1 - Limit overrun race conditions"
 ---
 
 The Application is Vulnerable to Race Condition and to complete the lab we need to buy the `Lightweight "l33t" Leather Jacket` at the lowest price.
