@@ -4,6 +4,8 @@ title: "Lab 4 - Single-endpoint race conditions"
 
 In this lab we are tasked with exploiting race condition to gain access to `carlos@ginandjuice.shop` email and accept the invitiation to become the admin user and delete the user account `carlos`.
 
+`Date: 4 September 2026`
+
 ## Table of Content 
 
 1. [Initial Recon](#initial-recon)
