@@ -12,7 +12,7 @@ In this lab we are tasked with bruteforcing the password for the user account `c
 
 ### Initial Recon
 
-![7a7a85d829b60f0de528c5e36e6cb389.png](7a7a85d829b60f0de528c5e36e6cb389.png)
+![7a7a85d829b60f0de528c5e36e6cb389.png](/public/7a7a85d829b60f0de528c5e36e6cb389.png)
 
 We have this login page available let's check whether the rate limit is there or not by entering the wrong password for carlos the no. of times it allows.
 
