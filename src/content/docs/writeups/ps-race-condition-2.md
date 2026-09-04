@@ -16,7 +16,7 @@ In this lab we are tasked with bruteforcing the password for the user account `c
 
 We have this login page available let's check whether the rate limit is there or not by entering the wrong password for carlos the no. of times it allows.
 
-![5c1dac5605ba5cdd9a1e4874dbe48f9a.png](/_resources/5c1dac5605ba5cdd9a1e4874dbe48f9a.png)
+![5c1dac5605ba5cdd9a1e4874dbe48f9a.png](/5c1dac5605ba5cdd9a1e4874dbe48f9a.png)
 
 
 After `4` failed trials we are locked for 60 seconds. 
@@ -25,15 +25,15 @@ After `4` failed trials we are locked for 60 seconds.
 
 Now let's intercept the request in burp and send the login request to burp extension turbo intruder.
 
-![Screenshot From 2026-09-03 12-05-58.png](/_resources/Screenshot%20From%202026-09-03%2012-05-58.png)
+![Screenshot From 2026-09-03 12-05-58.png](/Screenshot%20From%202026-09-03%2012-05-58.png)
 
-![f6de5d73c9c7d91a18b29912c2a2d9e4.png](/_resources/f6de5d73c9c7d91a18b29912c2a2d9e4.png)
+![f6de5d73c9c7d91a18b29912c2a2d9e4.png](/f6de5d73c9c7d91a18b29912c2a2d9e4.png)
 
 In the drop down menu select the `example/race-single-packet-attack.py`
 
 Also in the request body replace the password with `%s` :
 
-![2a7eeadced25deefea23e2fc4cb0f608.png](/_resources/2a7eeadced25deefea23e2fc4cb0f608.png)
+![2a7eeadced25deefea23e2fc4cb0f608.png](/2a7eeadced25deefea23e2fc4cb0f608.png)
 
 Now we need to make little changes to the python script for our use case - 
 
@@ -67,7 +67,7 @@ This script will choose password from our clipboard and replace the `%s` with ea
 
 Now run the attack - 
 
-![987826d86da89c5d9b75505693de43fe.png](/_resources/987826d86da89c5d9b75505693de43fe.png)
+![987826d86da89c5d9b75505693de43fe.png](/987826d86da89c5d9b75505693de43fe.png)
 
 Here we can see for the entry `carlos:master` we got `302` means we cracked the password.
 
@@ -75,7 +75,7 @@ Let's try to login and complete the task :
 
 Access the Admin Panel and delete the user carlos - 
 
-![7e6b9a6c9205e849e97697532e32f5f8.png](/_resources/7e6b9a6c9205e849e97697532e32f5f8.png)
+![7e6b9a6c9205e849e97697532e32f5f8.png](/7e6b9a6c9205e849e97697532e32f5f8.png)
 
 Challenge Solved!
 
