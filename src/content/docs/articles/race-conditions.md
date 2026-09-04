@@ -4,6 +4,8 @@ title: "Race Conditions - PortSwigger"
 
 In this article, we will cover the topic of Race Conditions, including both the theory and practical lab exercises. The original theory and lab material can be found on the [PortSwigger - Race Conditions](https://portswigger.net/web-security/race-conditions)
 
+`Date: 4 September 2026`
+
 ## Table of Contents
 
 1. [Limit Overrun Race Conditions](#limit-overrun-race-conditions)
