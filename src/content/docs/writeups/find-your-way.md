@@ -46,12 +46,12 @@ This is the Writeups section of the 0x4B1T platform. Explore valuable insights a
 ### PortSwigger
 
 1. Race Conditions
-   1.1 [Lab 1 - Limit overrun race conditions](https://0x4b1t.github.io/writeups/ps-race-condition-1/)
-   1.2 [Lab 2 - Bypassing rate limits via race conditions](https://0x4b1t.github.io/writeups/ps-race-condition-2/)
-   1.3 [Lab 3 - Multi-endpoint race conditions](https://0x4b1t.github.io/writeups/ps-race-condition-3/)
-   1.4 [Lab 4 - Single-endpoint race conditions](https://0x4b1t.github.io/writeups/ps-race-condition-4/)
-   1.5 [Lab 5 - Partial construction race conditions](https://0x4b1t.github.io/writeups/ps-race-condition-5/)
-   1.6 [Lab 6 - Exploiting time-sensitive vulnerabilities](https://0x4b1t.github.io/writeups/ps-race-condition-6/)
+-  1.1 [Lab 1 - Limit overrun race conditions](https://0x4b1t.github.io/writeups/ps-race-condition-1/)
+-  1.2 [Lab 2 - Bypassing rate limits via race conditions](https://0x4b1t.github.io/writeups/ps-race-condition-2/)
+-  1.3 [Lab 3 - Multi-endpoint race conditions](https://0x4b1t.github.io/writeups/ps-race-condition-3/)
+-  1.4 [Lab 4 - Single-endpoint race conditions](https://0x4b1t.github.io/writeups/ps-race-condition-4/)
+-  1.5 [Lab 5 - Partial construction race conditions](https://0x4b1t.github.io/writeups/ps-race-condition-5/)
+-  1.6 [Lab 6 - Exploiting time-sensitive vulnerabilities](https://0x4b1t.github.io/writeups/ps-race-condition-6/)
 ### Out of Order
 
 `This section includes writeups for challenges I solved out of sequence — sometimes even years after their release — while learning a related topic.`
