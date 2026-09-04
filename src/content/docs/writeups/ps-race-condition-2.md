@@ -1,5 +1,5 @@
 ---
-title: Lab 2 - Bypassing rate limits via race conditions
+title: "Lab 2 - Bypassing rate limits via race conditions"
 ---
 
 In this lab we are tasked with bruteforcing the password for the user account `carlos`  and access the admin panel and delete the user `carlos` all this by bypassing the rate limit by exploiting the race condiiton flaw in authentication mechanism.
