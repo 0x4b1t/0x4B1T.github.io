@@ -4,6 +4,8 @@ title: "Lab 5 - Partial construction race conditions"
 
 In this lab we are tasked with regsitering an account using arbitary email account (Associated with Admin) and then access the admin panel and delete the user account `carlos` and all this by exploiting the race conditon allowing us to bypass the email verification.
 
+`Date: 4 September 2026`
+
 ## Table of Content 
 1. [Initial Recon](#initial-recon)
 2. [Exploitation](#exploitation)
