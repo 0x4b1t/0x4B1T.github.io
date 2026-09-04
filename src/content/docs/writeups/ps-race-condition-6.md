@@ -1,8 +1,10 @@
 ---
-title: Lab 6 - "Exploiting time-sensitive vulnerabilities"
+title: "Lab 6 - Exploiting time-sensitive vulnerabilities"
 ---
 
 In this challenge we are not going to exploit race condition but broken forget password logic to reset the password of the user `carlos` then login as `carlos` and delete the user `carlos`.
+
+`Date: 4 September 2026`
 
 ## Table of Content 
 1. [Initial Recon](#initial-recon)
