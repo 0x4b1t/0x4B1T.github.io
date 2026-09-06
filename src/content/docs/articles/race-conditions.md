@@ -1,6 +1,7 @@
 ---
 title: "Race Conditions - PortSwigger"
 ---
+<img width="1672" height="941" alt="Picsart_26-09-04_17-42-51-113" src="https://github.com/user-attachments/assets/2140bcb0-9a3d-4643-bad6-8bd8d7730d83" />
 
 In this article, we will cover the topic of Race Conditions, including both the theory and practical lab exercises. The original theory and lab material can be found on the [PortSwigger - Race Conditions](https://portswigger.net/web-security/race-conditions)
 
